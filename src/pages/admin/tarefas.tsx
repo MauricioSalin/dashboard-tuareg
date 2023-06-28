@@ -27,7 +27,7 @@ const ClientPage: NextPage<Props> = ({ tasks }) => {
             columnsData={taskDataTable}
             tableData={tasks as unknown as TableData[]}
           />
-          <MiniCalendar selectRange={false} h="100%" />
+          <MiniCalendar selectRange={false} />
         </SimpleGrid>
       </Box>
     </AdminLayout>

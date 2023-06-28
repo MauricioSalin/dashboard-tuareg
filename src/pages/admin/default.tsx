@@ -53,7 +53,7 @@ export default function UserReports() {
                 />
               }
               name="Esperado pro mês"
-              value="R$ 9.520"
+              value="R$ 1.520"
             />
             <MiniStatistics
               startContent={
@@ -65,7 +65,7 @@ export default function UserReports() {
                 />
               }
               name="Tasks"
-              value="154"
+              value="6"
             />
             <MiniStatistics
               startContent={
@@ -84,7 +84,7 @@ export default function UserReports() {
                 />
               }
               name="Total de clientes"
-              value="2935"
+              value="5"
             />
           </SimpleGrid>
 
