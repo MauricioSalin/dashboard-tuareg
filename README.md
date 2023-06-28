@@ -7,12 +7,6 @@ Install Horizon UI by running either of the following:
 
 - Install Yarn CLI from [Yarn Official Page](https://yarnpkg.com/cli/install?ref=horizon-documentation)
 
-Clone the repository with the following command:
-
-```bash
-git clone https://github.com/horizon-ui/horizon-ui-chakra-nextjs.git
-```
-
 Run in terminal this command:
 
 ```bash
