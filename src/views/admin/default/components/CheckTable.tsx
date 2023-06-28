@@ -59,7 +59,7 @@ export default function CheckTable (props: TableProps) {
   return (
     <Card
       flexDirection='column'
-      w='50%'
+      w='100%'
       h='100%'
       px='0px'
       overflowX={{ sm: 'scroll', lg: 'hidden' }}
