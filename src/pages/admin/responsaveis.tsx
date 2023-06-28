@@ -20,7 +20,7 @@ const ClientPage: NextPage<Props> = ({ responsibles }) => {
   return (
     <AdminLayout>
       <Box pt={{ base: "130px", md: "80px", xl: "80px" }}>
-        <SimpleGrid mb="20px" columns={{ sm: 1, md: 3 }}>
+        <SimpleGrid mb="20px" columns={2}>
           <ResponsibleTable
             columnsData={responsibleDataTable}
             tableData={responsibles as unknown as TableData[]}
