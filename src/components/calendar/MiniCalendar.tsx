@@ -17,7 +17,6 @@ export default function MiniCalendar (props: {
       alignItems='center'
       flexDirection='column'
       w='100%'
-      maxW='max-content'
       p='20px 15px'
       h='max-content'
       {...rest}

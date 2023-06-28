@@ -1,4 +1,6 @@
 .react-calendar {
+  min-height: 100% !important;
+  width: 100% !important;
   border: unset;
   background-color: transparent;
   font-family: "DM Sans", sans-serif;

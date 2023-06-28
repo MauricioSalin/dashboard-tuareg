@@ -1,4 +1,10 @@
-import { Box, Icon, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
+import {
+  Box,
+  Icon,
+  SimpleGrid,
+  useColorModeValue,
+  Flex,
+} from "@chakra-ui/react";
 
 // Custom components
 import MiniCalendar from "components/calendar/MiniCalendar";
@@ -82,9 +88,11 @@ export default function UserReports() {
             />
           </SimpleGrid>
 
-          <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap="20px" mb="20px">
+          <SimpleGrid columns={2} gap="20px" mb="20px">
             <TotalSpent />
-            <MiniCalendar h="100%" w="100%" selectRange={false} />
+            <Flex width="100%">
+              <MiniCalendar h="100%" w="100%" selectRange={false} />
+            </Flex>
           </SimpleGrid>
 
           <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap="20px" mb="20px">
