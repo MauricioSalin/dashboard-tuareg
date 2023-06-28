@@ -107,7 +107,7 @@ export const monthlyDataTable: Columns = [
   },
   {
     Header: "VENCIMENTO",
-    accessor: "dueData",
+    accessor: "dueDate",
   },
   {
     Header: "VALOR",
