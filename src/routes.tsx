@@ -10,7 +10,6 @@ import {
 
 // Admin Imports
 import MainDashboard from "pages/admin/default";
-import DataTables from "pages/admin/data-tables";
 
 // Auth Imports
 import SignInCentered from "pages/auth/sign-in";
@@ -29,7 +28,7 @@ const routes: IRoute[] = [
     layout: "/admin",
     path: "/responsaveis",
     icon: <Icon as={MdPeopleAlt} width="20px" height="20px" color="inherit" />,
-    component: DataTables,
+    component: SignInCentered,
     secondary: true,
   },
   {
@@ -37,7 +36,7 @@ const routes: IRoute[] = [
     layout: "/admin",
     path: "/clientes",
     icon: <Icon as={MdPerson} width="20px" height="20px" color="inherit" />,
-    component: DataTables,
+    component: SignInCentered,
     secondary: true,
   },
   {
@@ -47,7 +46,7 @@ const routes: IRoute[] = [
       <Icon as={MdOutlineSchedule} width="20px" height="20px" color="inherit" />
     ),
     path: "/agendamentos",
-    component: DataTables,
+    component: SignInCentered,
   },
   {
     name: "Mensalidades",
@@ -56,7 +55,7 @@ const routes: IRoute[] = [
     icon: (
       <Icon as={MdAttachMoney} width="20px" height="20px" color="inherit" />
     ),
-    component: DataTables,
+    component: SignInCentered,
   },
   {
     name: "Tarefas",
